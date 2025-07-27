@@ -1,0 +1,30 @@
+# Projeto 2 - Construção e Deploy de API - Machine Learning Para Prever o Preço do Bitcoin
+# Instruções para executar o projeto
+
+# Abra o terminal ou prompt de comando, navegue até a pasta com os arquivos e execute o comando abaixo para criar um ambiente virtual:
+
+conda create --name dsaengsoftp2 python=3.12
+
+# Ative o ambiente:
+
+conda activate dsaengsoftp2 (ou: source activate dsaengsoftp2)
+
+# Instale o pip e as dependências:
+
+conda install pip
+pip install -r requirements.txt 
+
+# Abra o terminal ou prompt de comando, navegue até a pasta onde estão os arquivos e inicie a API com o comando abaixo:
+
+python app.py
+
+# Abra outro terminal ou prompt de comando, navegue até a pasta onde estão os arquivos, ative o ambiente virtual com as dependências (conda activate dsaengsoftp2) e execute a app cliente com o comando abaixo:
+
+python cliente.py
+
+# Use os comandos abaixo para desativar o ambiente virtual e remover o ambiente (opcional):
+
+conda deactivate
+conda remove --name dsaengsoftp2 --all
+
+
