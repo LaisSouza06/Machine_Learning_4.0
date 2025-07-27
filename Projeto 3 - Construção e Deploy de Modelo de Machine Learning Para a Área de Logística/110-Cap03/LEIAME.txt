@@ -1,0 +1,27 @@
+# Projeto 1 - Construção e Deploy de Modelo de Machine Learning Para a Área de Logística
+
+# Abra o terminal ou prompt de comando, navegue até a pasta com os arquivos e execute o comando abaixo para criar um ambiente virtual:
+
+conda create --name dsadeploymlp1 python=3.12
+
+# Ative o ambiente:
+
+conda activate dsadeploymlp1 (ou: source activate dsadeploymlp1)
+
+# Instale o pip e as dependências:
+
+conda install pip
+pip install -r requirements.txt 
+
+# Execute:
+
+python p1_modelo.py
+python p1_deploy.py
+
+# Use os comandos abaixo para desativar o ambiente virtual e remover o ambiente (opcional):
+
+conda deactivate
+conda remove --name dsadeploymlp1 --all
+
+
+
