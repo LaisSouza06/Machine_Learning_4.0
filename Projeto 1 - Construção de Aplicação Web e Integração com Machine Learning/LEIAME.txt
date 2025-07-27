@@ -1,0 +1,23 @@
+# Projeto 1 - Construção de Aplicação Web e Integração com Machine Learning - Parte 2
+
+# Abra o terminal ou prompt de comando, navegue até a pasta com os arquivos e execute o comando abaixo para criar um ambiente virtual:
+
+conda create --name dsaengsoftp1 python=3.12
+
+# Ative o ambiente:
+
+conda activate dsaengsoftp1 (ou: source activate dsaengsoftp1)
+
+# Instale o pip e as dependências:
+
+conda install pip
+pip install -r requirements.txt 
+
+# Execute a app:
+
+gunicorn -w 4 app:app
+
+# Use os comandos abaixo para desativar o ambiente virtual e remover o ambiente (opcional):
+
+conda deactivate
+conda remove --name dsaengsoftp1 --all
